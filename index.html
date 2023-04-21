@@ -18,12 +18,18 @@
                 <div>
                     <h3>Today's To do</h3>
                     <hr>
-                    <input type="text" id="input-item" placeholder="Type New Task and Press 'Enter'">
+                    <input type="text" id="input-item" placeholder="Type New Task and Press 'Enter'" onkeydown="if (event.key === 'Enter'){
+                        inputVal();
+                    }">
                     <hr>
+                    <div id="list-items"></div>
                     <button id="clearBtn">Clear Completed</button>
+                </div>
+                <div>
                 </div>
             </div>
         </section>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
