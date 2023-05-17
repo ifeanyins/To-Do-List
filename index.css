@@ -88,21 +88,11 @@ hr{
     border-bottom:brown solid 1px;
 }
 
-.listDiv {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    /* cursor: pointer; */
-}
-
 #list-items {
     display: grid;
-    grid-template-columns:300px 100px 200px ;
-    padding: 10px;
-    font-family: sans-serif;
-    gap: 20px;
-    align-items: center;
+    grid-template-columns: 200px 100px 100px;
 }
+
 
 .task-img {
     width: 20px;
